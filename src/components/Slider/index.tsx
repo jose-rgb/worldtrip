@@ -38,6 +38,19 @@ export default function Slider() {
                     </Flex>
                 </SwiperSlide>
 
+                <SwiperSlide>
+                    <Flex w="100%" h="100%" align="center" justify="center" direction="column" bgImage="url(/slide/northAmerica.jpg)" bgRepeat="no-repeat" bgSize="cover" textAlign="center" bgPosition="center" > 
+
+                        <Link href="/continent/northAmerica" >
+                            <a>
+                                <Heading fontSize={["3xl", "4xl", "5xl"]} color="gray.100" fontWeight="bold" >América do norte</Heading>
+                                <Text fontWeight="bold" color="gray.300" fontSize={["0.8rem", "1xl", "2xl"]} mt={["2", "4"]} >O sonho Americano.</Text>
+                            </a>
+                        </Link>
+
+                    </Flex>
+                </SwiperSlide>
+
             </Swiper>
 
         </Flex>

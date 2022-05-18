@@ -22,7 +22,7 @@ export default function City({ image, city, country, flag }: CityProps) {
 
                 </Flex>
 
-                <Image src={`/flags/${flag}`} w="30px" h="30px" borderRadius="50%" objectFit="cover"/>
+                <Image src={`/flags/${flag}`} w="40px" h="40px" borderRadius="30%" objectFit="contain"/>
 
             </Flex>
 
