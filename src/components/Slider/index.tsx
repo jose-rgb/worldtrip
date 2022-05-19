@@ -51,6 +51,19 @@ export default function Slider() {
                     </Flex>
                 </SwiperSlide>
 
+                <SwiperSlide>
+                    <Flex w="100%" h="100%" align="center" justify="center" direction="column" bgImage="url(/slide/asia.jpg)" bgRepeat="no-repeat" bgSize="cover" textAlign="center" bgPosition="center" > 
+
+                        <Link href="/continent/asia" >
+                            <a>
+                                <Heading fontSize={["3xl", "4xl", "5xl"]} color="gray.100" fontWeight="bold" >Ásia</Heading>
+                                <Text fontWeight="bold" color="gray.50" fontSize={["0.8rem", "1xl", "2xl"]} mt={["2", "4"]} >O maior e mais populoso continente.</Text>
+                            </a>
+                        </Link>
+
+                    </Flex>
+                </SwiperSlide>
+
             </Swiper>
 
         </Flex>
