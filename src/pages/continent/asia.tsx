@@ -16,7 +16,7 @@ export default function Asia() {
                     description="a Ásia é limitada a leste pelo Oceano Pacífico , ao sul pelo Oceano Índico
                      e ao norte pelo Oceano Ártico . A fronteira da Ásia com a Europa é uma construção histórica
                      e cultural , pois não há uma separação física e geográfica clara entre elas. É um tanto arbitrário
-                     e mudou desde sua primeira concepção na antiguidade clássica . " 
+                     e mudou desde sua primeira concepção na antiguidade clássica." 
                     countries="50"
                     languages="2300"
                     cities="125"
