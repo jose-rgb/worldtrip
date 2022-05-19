@@ -2,6 +2,7 @@ import { Flex, Heading, Grid } from "@chakra-ui/react";
 import City from "../../components/City";
 import ContinentBanner from "../../components/ContinentBanner";
 import ContinentContent from "../../components/ContinentContent";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 export default function Africa() {
@@ -41,6 +42,8 @@ export default function Africa() {
                     </Grid>
                 </>
             </Flex>
+
+            < Footer />
 
         </Flex>
     )
