@@ -1,4 +1,6 @@
-import { ChakraProvider } from '@chakra-ui/react';
+import { useEffect, useState } from "react";
+import ClipLoader from "react-spinners/ClipLoader";
+import { ChakraProvider, Flex } from '@chakra-ui/react';
 import { AppProps } from 'next/app';
 import { theme } from '../styles/theme'
 
@@ -11,9 +13,29 @@ import '../styles/slider.scss';
 
 
 function App({ Component, pageProps }: AppProps) {
+  const  [ loading, setLoading ] = useState(false)
+
+  useEffect(()=>{
+
+    setLoading(true)
+    setTimeout(()=> {
+      setLoading(false)
+    }, 3000)
+
+  },[])
+
+
   return (
     <ChakraProvider theme={ theme }>
-      <Component {...pageProps} />
+      {
+        loading ?
+        <Flex w="100vw" h="100vh" align="center" justify="center">
+          <ClipLoader color={'#E7DB45'} loading={loading}  size={150} />
+        </Flex>
+        :
+          <Component {...pageProps} />
+      }
+      
     </ChakraProvider>
   ) 
 }

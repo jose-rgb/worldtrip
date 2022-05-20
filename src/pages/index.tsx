@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import TravelMode from "../components/TravelMode";
 
 export default function Home() {
+
   return (
     <Flex direction="column">
 

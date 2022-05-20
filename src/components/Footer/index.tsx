@@ -10,7 +10,7 @@ export default function Footer() {
 
             <Grid h="100%" mx="auto" maxW="1240px" alignItems="center" templateColumns="repeat(3, 1fr)" >
 
-                <Flex gridColumn="2" alignItems="center" direction="column" justifyContent="center">
+                <Flex gridColumn="2" alignItems="center" direction="column" justifyContent="center" mb="2" mt="2">
 
                     <Flex alignItems="center" justifyContent="center">
                         <Text fontSize={["10px", "12px"]} > Desenvolvido por José Ricardo </Text>
