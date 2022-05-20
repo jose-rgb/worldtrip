@@ -1,6 +1,6 @@
 # WorldTrip ✈
 
-<img src="" />
+<img src="https://github.com/jose-rgb/worldtrip/blob/main/public/presentation.png" />
 
 ## 📑 Sobre o projeto
 * Projeto desenvolvido durante um dos desafios do capitulos do Ignite da Rocketseat. Onde foi  desenvolvido um site do zero seguindo o layout do Figma é aplicar a estilização com a biblioteca Chakra UI.
@@ -29,6 +29,6 @@ $ yarn start
 
 ```
 
-<a href="https://worldtripp.vercel.app/" target="blank">
-    <h3>Ver em produção 🌐</h3>
+## <a href="https://worldtripp.vercel.app/" target="blank">
+    Ver em produção 🌐
 </a>
