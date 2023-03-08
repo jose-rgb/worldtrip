@@ -28,7 +28,3 @@ $ yarn
 $ yarn start
 
 ```
-
-## <a href="https://worldtripp.vercel.app/" target="blank">
-    Ver em produção 🌐
-</a>
